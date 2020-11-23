@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+
+<button onclick="sum()"> sum</button>
+<button onclick="div()">div</button>
+<button onclick="sub()">sub</button>
+<button onclick="mul()">mul</button>
+<p id="demo"></p>
+
+
+<script>
+	var a=parseInt(prompt("enter value of 1st number"));
+	var b=parseInt(prompt("enter value of 2nd number"));
+	function sum(){
+	
+	var sum=a;
+	document.getElementById("demo").innerHTML=("sum :",a,"+",b,"=",+sum);
+	}
+	function div(){
+	
+	var div=a/b;
+	document.getElementById("demo").innerHTML=("sum :",a,"/",b,"=",div);
+	}
+	function sub(){
+	
+	var sub=a-b;
+	document.getElementById("demo").innerHTML=("sum :",a,"-",b,"=",sub);
+	}
+	function mul(){
+	
+	var mul=a*b;
+	document.getElementById("demo").innerHTML=("sum :",a,"*",b,"=",mul);
+	}
+</script>
+</body>
+</html>
